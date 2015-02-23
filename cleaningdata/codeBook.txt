@@ -1,4 +1,6 @@
- The summary of data fields are as described below,and each field name description is described after the summary:
+This database comes from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+ 
+The summary of data fields are as described below,and each field name description is described after the summary:
  $SubjectId                           : int  1 1 1 1 1 1 1 1 1 1 ...(the id of the person for whom the data is being tracked)
  $ tBodyAcc-mean()-X                   : num  0.289 0.278 0.28 0.279 0.277 ... (description at the bottom of the summary)
  $ tBodyAcc-mean()-Y                   : num  -0.0203 -0.0164 -0.0195 -0.0262 -0.0166 ..(description at the bottom of the summary)
@@ -90,7 +92,9 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
+
+
+The body's linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
 
 
 
